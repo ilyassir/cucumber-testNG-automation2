@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I am on the Google HomePage (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">search for &quot;testing tools&quot; (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I see the results (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="SuiteCRM Regression Automation" duration-ms="29009" started-at="2018-10-17T17:13:20Z" finished-at="2018-10-17T17:13:49Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Automated tests" duration-ms="29009" started-at="2018-10-17T17:13:20Z" finished-at="2018-10-17T17:13:49Z">
+      <class name="com.app.runners.CuckesRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="setUpClass" is-config="true" duration-ms="427" started-at="2018-10-17T17:13:20Z" finished-at="2018-10-17T17:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="runScenario" duration-ms="28081" started-at="2018-10-17T17:13:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-17T17:13:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GoogleTestForJenkinsandReposrt"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on the Google HomePage (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">search for &quot;testing tools&quot; (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I see the results (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="tearDownClass" is-config="true" duration-ms="283" started-at="2018-10-17T17:13:48Z" finished-at="2018-10-17T17:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.runners.CuckesRunner -->
+    </test> <!-- Automated tests -->
+  </suite> <!-- SuiteCRM Regression Automation -->
+</testng-results>
