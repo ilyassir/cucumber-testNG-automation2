@@ -2,28 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<div "result">I am on the Google HomePage (PASSED : 3s)</div>]]>
+      <![CDATA[<div "result">I go to google main page (PASSED : 2s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">search for &quot;testing tools&quot; (PASSED : 7s)</div>]]>
+      <![CDATA[<div "result">I write for &quot;vacuum cleaners&quot; (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I see the results (PASSED : 0s)</div>]]>
+      <![CDATA[<div "result">I click search button (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I check the title (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on the second page (PASSED : 2s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="SuiteCRM Regression Automation" duration-ms="29009" started-at="2018-10-17T17:13:20Z" finished-at="2018-10-17T17:13:49Z">
+  <suite name="SuiteCRM Regression Automation" duration-ms="15380" started-at="2018-11-15T19:04:40Z" finished-at="2018-11-15T19:04:56Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Automated tests" duration-ms="29009" started-at="2018-10-17T17:13:20Z" finished-at="2018-10-17T17:13:49Z">
+    <test name="Automated tests" duration-ms="15380" started-at="2018-11-15T19:04:40Z" finished-at="2018-11-15T19:04:56Z">
       <class name="com.app.runners.CuckesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="setUpClass" is-config="true" duration-ms="427" started-at="2018-10-17T17:13:20Z" finished-at="2018-10-17T17:13:20Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="setUpClass" is-config="true" duration-ms="440" started-at="2018-11-15T19:04:40Z" finished-at="2018-11-15T19:04:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="runScenario" duration-ms="28081" started-at="2018-10-17T17:13:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-17T17:13:48Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="runScenario" duration-ms="14600" started-at="2018-11-15T19:04:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-11-15T19:04:56Z">
           <params>
             <param index="0">
               <value>
@@ -32,23 +38,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["GoogleTestForJenkinsandReposrt"]]>
+                <![CDATA["Title of your feature"]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<div "result">I am on the Google HomePage (PASSED : 3s)</div>]]>
+              <![CDATA[<div "result">I go to google main page (PASSED : 2s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">search for &quot;testing tools&quot; (PASSED : 7s)</div>]]>
+              <![CDATA[<div "result">I write for &quot;vacuum cleaners&quot; (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I see the results (PASSED : 0s)</div>]]>
+              <![CDATA[<div "result">I click search button (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I check the title (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on the second page (PASSED : 2s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="tearDownClass" is-config="true" duration-ms="283" started-at="2018-10-17T17:13:48Z" finished-at="2018-10-17T17:13:49Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CuckesRunner@20398b7c]" name="tearDownClass" is-config="true" duration-ms="165" started-at="2018-11-15T19:04:56Z" finished-at="2018-11-15T19:04:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

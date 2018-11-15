@@ -17,7 +17,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		},
 		
 		features = {"src/test/resources/features","src/test/resources/hrapp_features"},
-		tags="@devGoog",
+		tags="@trynewgoog",
 		glue = "com/app/step_defs",
 		dryRun=false
 				)

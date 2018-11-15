@@ -1,13 +1,8 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/GoogleTestPage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/googletest2.feature");
 formatter.feature({
-  "name": "GoogleTestForJenkinsandReposrt",
+  "name": "Title of your feature",
   "description": "  I want to use this template for my feature file",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@devGoog"
-    }
-  ]
+  "keyword": "Feature"
 });
 formatter.scenario({
   "name": "Title of your scenario",
@@ -15,10 +10,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@devGoog"
-    },
-    {
-      "name": "@tag1"
+      "name": "@trynewgoog"
     }
   ]
 });
@@ -26,31 +18,51 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am on the Google HomePage",
+  "name": "I go to google main page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "GoogleTestPageStepDefs.i_am_on_the_Google_HomePage()"
+  "location": "Googletest2.i_go_to_google_main_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "search for \"testing tools\"",
-  "keyword": "When "
+  "name": "I write for \"vacuum cleaners\"",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "GoogleTestPageStepDefs.search_for(String)"
+  "location": "Googletest2.i_write_for(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I see the results",
+  "name": "I click search button",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "GoogleTestPageStepDefs.i_see_the_results()"
+  "location": "Googletest2.i_click_search_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I check the title",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Googletest2.i_check_the_title()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on the second page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Googletest2.i_click_on_the_second_page()"
 });
 formatter.result({
   "status": "passed"

@@ -1,12 +1,12 @@
 [
   {
-    "line": 20,
+    "line": 1,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 16005894772,
+              "duration": 6783059599,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 24,
+        "line": 5,
         "name": "Title of your scenario",
         "description": "",
-        "id": "googletestforjenkinsandreposrt;title-of-your-scenario",
+        "id": "title-of-your-feature;title-of-your-scenario",
         "after": [
           {
             "result": {
-              "duration": 962943683,
+              "duration": 771069276,
               "status": "passed"
             },
             "match": {
@@ -34,71 +34,83 @@
         "steps": [
           {
             "result": {
-              "duration": 3674031677,
+              "duration": 2064253549,
               "status": "passed"
             },
-            "line": 25,
-            "name": "I am on the Google HomePage",
+            "line": 6,
+            "name": "I go to google main page",
             "match": {
-              "location": "GoogleTestPageStepDefs.i_am_on_the_Google_HomePage()"
+              "location": "Googletest2.i_go_to_google_main_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 7395347978,
+              "duration": 202591588,
               "status": "passed"
             },
-            "line": 26,
-            "name": "search for \"testing tools\"",
+            "line": 7,
+            "name": "I write for \"vacuum cleaners\"",
             "match": {
               "arguments": [
                 {
-                  "val": "testing tools",
-                  "offset": 12
+                  "val": "vacuum cleaners",
+                  "offset": 13
                 }
               ],
-              "location": "GoogleTestPageStepDefs.search_for(String)"
+              "location": "Googletest2.i_write_for(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 7362821,
+              "duration": 2574141347,
               "status": "passed"
             },
-            "line": 27,
-            "name": "I see the results",
+            "line": 8,
+            "name": "I click search button",
             "match": {
-              "location": "GoogleTestPageStepDefs.i_see_the_results()"
+              "location": "Googletest2.i_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7398555,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check the title",
+            "match": {
+              "location": "Googletest2.i_check_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2170596593,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the second page",
+            "match": {
+              "location": "Googletest2.i_click_on_the_second_page()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@devGoog"
-          },
-          {
-            "name": "@tag1"
+            "name": "@trynewgoog"
           }
         ]
       }
     ],
-    "name": "GoogleTestForJenkinsandReposrt",
+    "name": "Title of your feature",
     "description": "  I want to use this template for my feature file",
-    "id": "googletestforjenkinsandreposrt",
+    "id": "title-of-your-feature",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/GoogleTestPage.feature",
-    "tags": [
-      {
-        "name": "@devGoog",
-        "type": "Tag",
-        "location": {
-          "line": 19,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "src/test/resources/features/googletest2.feature",
+    "tags": []
   }
 ]

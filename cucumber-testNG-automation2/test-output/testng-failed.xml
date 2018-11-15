@@ -6,7 +6,7 @@
       <class name="com.app.runners.CuckesRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.app.runners.CuckesRunner -->
